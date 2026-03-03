@@ -132,7 +132,7 @@ export default function Projects(){
         <ProjectMain>
             <ProjectMainHeading>Projects</ProjectMainHeading>
             <ProjectImageContainer>
-                <ProjectImage src="../../../public/fashionforward-screenshot.jpeg" id="fashionforward-screenshot"
+                <ProjectImage src="/fashionforward-screenshot.jpeg" id="fashionforward-screenshot"
                               alt="FashionForward Project Screenshot Example"/>
             </ProjectImageContainer>
             <ProjectDescription className="project">

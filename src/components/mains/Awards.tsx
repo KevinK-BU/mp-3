@@ -53,7 +53,7 @@ export default function Awards() {
         <AwardsMain id="awards-main">
             <AwardsMainH2>Awards I've Earned</AwardsMainH2>
             <AwardsImageContainer className="award-image">
-                <AwardsImage src="../../../public/Boston-Hacks-Logo.jpg" alt="BostonHacks 2025 Logo"/>
+                <AwardsImage src="/Boston-Hacks-Logo.jpg" alt="BostonHacks 2025 Logo"/>
             </AwardsImageContainer>
             <AwardsText className="award-container">
                 <h5>BostonHacks 2025 Best Use of Gemini API</h5>
@@ -66,7 +66,7 @@ export default function Awards() {
                 </ul>
             </AwardsText>
             <AwardsImageContainer className="award-image">
-                <AwardsImage src="../../../public/Boston_University_Square_Logo.png" alt="Boston University Logo"/>
+                <AwardsImage src="/Boston_University_Square_Logo.png" alt="Boston University Logo"/>
             </AwardsImageContainer>
             <AwardsText className="award-container">
                 <h5>Boston University CAS Dean's List</h5>
@@ -78,7 +78,7 @@ export default function Awards() {
                 </ul>
             </AwardsText>
             <AwardsImageContainer className="award-image">
-                <AwardsImage src="../../../public/questbridge_logo.jpg" alt="QuestBridge Logo"/>
+                <AwardsImage src="/questbridge_logo.jpg" alt="QuestBridge Logo"/>
             </AwardsImageContainer>
             <AwardsText className="award-container">
                 <h5>QuestBridge National College Match Scholarship Award</h5>
