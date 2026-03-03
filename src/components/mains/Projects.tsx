@@ -117,7 +117,7 @@ export default function Projects(){
     }
     function doPow() {
         let res = Number(input1);
-        for (let i = 0; i < Number(input2); i++) {
+        for (let i = 0; i < Number(input2) - 1; i++) {
             res = (Number(res) * Number(input1))
         }
         setOutput(res);
