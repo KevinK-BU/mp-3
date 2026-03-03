@@ -39,7 +39,7 @@ const TextWrapper = styled.div`
 export default function Home() {
     return (
         <HomeMain>
-            <ProfilePicture src="../../../public/Kevin_Kupeli.jpg" alt="Kevin Kupeli" id="profile-picture"/>
+            <ProfilePicture src="/Kevin_Kupeli.jpg" alt="Kevin Kupeli" id="profile-picture"/>
             <TextWrapper id="text-wrapper">
                 <p>Hi! My name is Kevin Kupeli, and I am an Undergraduate Junior Computer Science student
                     at Boston University. I am also a Course Assistant for the Introduction to Computer Science
