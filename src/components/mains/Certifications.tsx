@@ -49,7 +49,7 @@ export default function Certifications() {
         <CertsMain id="certs-main">
             <CertsMainHeader>Certifications I've Completed</CertsMainHeader>
             <CertsLogoContainer className="certificate-logo">
-                <CertsLogo src="../../../public/google-logo.png" alt="Google Logo"/>
+                <CertsLogo src="/google-logo.png" alt="Google Logo"/>
             </CertsLogoContainer>
             <CertsText className="certificate-wrapper">
                 <h5><strong>Google IT Support Professional Certificate</strong></h5>
@@ -64,7 +64,7 @@ export default function Certifications() {
                 </ul>
             </CertsText>
             <CertsLogoContainer className="certificate-logo">
-                <CertsLogo src="../../../public/scrum-logo.png" alt="Scrum Logo"/>
+                <CertsLogo src="/scrum-logo.png" alt="Scrum Logo"/>
             </CertsLogoContainer>
             <CertsText className="certificate-wrapper">
                 <h5><strong>Professional Scrum Developer Certification (PSD)</strong></h5>
