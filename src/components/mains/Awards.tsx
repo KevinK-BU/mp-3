@@ -50,48 +50,51 @@ const AwardsText = styled.div`
 
 export default function Awards() {
     return (
-        <AwardsMain id="awards-main">
-            <AwardsMainH2>Awards I've Earned</AwardsMainH2>
-            <AwardsImageContainer className="award-image">
-                <AwardsImage src="/Boston-Hacks-Logo.jpg" alt="BostonHacks 2025 Logo"/>
-            </AwardsImageContainer>
-            <AwardsText className="award-container">
-                <h5>BostonHacks 2025 Best Use of Gemini API</h5>
-                <ul>
-                    <li>Awarded for my project FashionForward, my team and I competed in the BostonHacks 2025
-                        24-Hour Hackathon and won this award. Among 227 registered participants, my team of 3
-                        fellow developers and I worked together to utilize the Gemini API and win this award!
-                    </li>
-                    <li>Awarded: October 2025</li>
-                </ul>
-            </AwardsText>
-            <AwardsImageContainer className="award-image">
-                <AwardsImage src="/Boston_University_Square_Logo.png" alt="Boston University Logo"/>
-            </AwardsImageContainer>
-            <AwardsText className="award-container">
-                <h5>Boston University CAS Dean's List</h5>
-                <ul>
-                    <li>Awarded to full-time students who earn a GPA of 3.5 or higher at Boston University's College
-                        of Arts and Science
-                    </li>
-                    <li>Awarded For: Fall 2023, Spring 2024, Fall 2024, Spring 2025, Fall 2025</li>
-                </ul>
-            </AwardsText>
-            <AwardsImageContainer className="award-image">
-                <AwardsImage src="/questbridge_logo.jpg" alt="QuestBridge Logo"/>
-            </AwardsImageContainer>
-            <AwardsText className="award-container">
-                <h5>QuestBridge National College Match Scholarship Award</h5>
-                <ul>
-                    <li>This scholarship is awarded to low-income high school seniors.
-                        Among over 180,000 applicants, I was one of the 1,755 students selected
-                        to attend a university on a full-ride scholarship. Of those 1,755 students,
-                        I was one of 30 matched to Boston University!
-                    </li>
-                    <li>Awarded: December 2022</li>
-                </ul>
-            </AwardsText>
+        <>
+            <title>Awards | Kevin's Resume</title>
+            <AwardsMain id="awards-main">
+                <AwardsMainH2>Awards I've Earned</AwardsMainH2>
+                <AwardsImageContainer className="award-image">
+                    <AwardsImage src="/Boston-Hacks-Logo.jpg" alt="BostonHacks 2025 Logo"/>
+                </AwardsImageContainer>
+                <AwardsText className="award-container">
+                    <h5>BostonHacks 2025 Best Use of Gemini API</h5>
+                    <ul>
+                        <li>Awarded for my project FashionForward, my team and I competed in the BostonHacks 2025
+                            24-Hour Hackathon and won this award. Among 227 registered participants, my team of 3
+                            fellow developers and I worked together to utilize the Gemini API and win this award!
+                        </li>
+                        <li>Awarded: October 2025</li>
+                    </ul>
+                </AwardsText>
+                <AwardsImageContainer className="award-image">
+                    <AwardsImage src="/Boston_University_Square_Logo.png" alt="Boston University Logo"/>
+                </AwardsImageContainer>
+                <AwardsText className="award-container">
+                    <h5>Boston University CAS Dean's List</h5>
+                    <ul>
+                        <li>Awarded to full-time students who earn a GPA of 3.5 or higher at Boston University's College
+                            of Arts and Science
+                        </li>
+                        <li>Awarded For: Fall 2023, Spring 2024, Fall 2024, Spring 2025, Fall 2025</li>
+                    </ul>
+                </AwardsText>
+                <AwardsImageContainer className="award-image">
+                    <AwardsImage src="/questbridge_logo.jpg" alt="QuestBridge Logo"/>
+                </AwardsImageContainer>
+                <AwardsText className="award-container">
+                    <h5>QuestBridge National College Match Scholarship Award</h5>
+                    <ul>
+                        <li>This scholarship is awarded to low-income high school seniors.
+                            Among over 180,000 applicants, I was one of the 1,755 students selected
+                            to attend a university on a full-ride scholarship. Of those 1,755 students,
+                            I was one of 30 matched to Boston University!
+                        </li>
+                        <li>Awarded: December 2022</li>
+                    </ul>
+                </AwardsText>
 
-        </AwardsMain>
+            </AwardsMain>
+        </>
     )
 }

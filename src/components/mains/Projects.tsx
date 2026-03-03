@@ -129,58 +129,61 @@ export default function Projects(){
     }
 
     return (
-        <ProjectMain>
-            <ProjectMainHeading>Projects</ProjectMainHeading>
-            <ProjectImageContainer>
-                <ProjectImage src="/fashionforward-screenshot.jpeg" id="fashionforward-screenshot"
-                              alt="FashionForward Project Screenshot Example"/>
-            </ProjectImageContainer>
-            <ProjectDescription className="project">
-                <h5>FashionForward | <em>Software Developer</em></h5>
+        <>
+            <title>Projects | Kevin's Resume </title>
+            <ProjectMain>
+                <ProjectMainHeading>Projects</ProjectMainHeading>
+                <ProjectImageContainer>
+                    <ProjectImage src="/fashionforward-screenshot.jpeg" id="fashionforward-screenshot"
+                                  alt="FashionForward Project Screenshot Example"/>
+                </ProjectImageContainer>
+                <ProjectDescription className="project">
+                    <h5>FashionForward | <em>Software Developer</em></h5>
+                    <br/>
+                    <h5>FashionForward is a web application built to utilize the Gemini API
+                        to create an AI-powered personal stylist. This project won my team and I
+                        the <strong>Best Use of Gemini API Award</strong> at BostonHacks 2025, BU's largest hackathon!
+                    </h5>
+                    <br/>
+                    <DevPostLink to="https://devpost.com/software/fashion-forward-su1r7y?_gl=1*1wr4sec*_gcl_au*MTM0MDAxODUxNC4xNzcwNDI2OTA4*_ga*MTgyNjk5NzU3OC4xNzcwNDI2OTA5*_ga_0YHJK3Y10M*czE3NzA0MzUxMTkkbzIkZzEkdDE3NzA0MzUxMzIkajQ3JGwwJGgw"
+                       target="_blank">
+                        Click here to check out the Project DevPost!
+                    </DevPostLink>
+                </ProjectDescription>
                 <br/>
-                <h5>FashionForward is a web application built to utilize the Gemini API
-                    to create an AI-powered personal stylist. This project won my team and I
-                    the <strong>Best Use of Gemini API Award</strong> at BostonHacks 2025, BU's largest hackathon!
-                </h5>
-                <br/>
-                <DevPostLink to="https://devpost.com/software/fashion-forward-su1r7y?_gl=1*1wr4sec*_gcl_au*MTM0MDAxODUxNC4xNzcwNDI2OTA4*_ga*MTgyNjk5NzU3OC4xNzcwNDI2OTA5*_ga_0YHJK3Y10M*czE3NzA0MzUxMTkkbzIkZzEkdDE3NzA0MzUxMzIkajQ3JGwwJGgw"
-                   target="_blank">
-                    Click here to check out the Project DevPost!
-                </DevPostLink>
-            </ProjectDescription>
-            <br/>
-            <CalculatorDiv id="calculator">
-                <CalculatorH5>Kev's Calculator!</CalculatorH5>
-                <br/>
-                <label htmlFor="first-val">First Value: </label>
-                <CalculatorInput type="text" id="first-val" value={input1} onChange={(e) => setInput1(e.target.value)}/>
-                <br/>
-                <label htmlFor="second-val">Second Value: </label>
-                <CalculatorInput type="text" id="second-val" value={input2} onChange={(e) => setInput2(e.target.value)}/>
-                <br/>
-                <ButtonList id="buttons">
-                    <CalcButtonLi>
-                        <CalcButton onClick={doAdd}>+</CalcButton>
-                    </CalcButtonLi>
-                    <CalcButtonLi>
-                        <CalcButton onClick={doSub}>-</CalcButton>
-                    </CalcButtonLi>
-                    <CalcButtonLi>
-                        <CalcButton onClick={doMul}>*</CalcButton>
-                    </CalcButtonLi>
-                    <CalcButtonLi>
-                        <CalcButton onClick={doDiv}>/</CalcButton>
-                    </CalcButtonLi>
-                    <CalcButtonLi>
-                        <CalcButton onClick={doPow}>**</CalcButton>
-                    </CalcButtonLi>
-                    <CalcButtonLi>
-                        <CalcButton onClick={clearCalc}>Clear</CalcButton>
-                    </CalcButtonLi>
-                </ButtonList>
-                <CalcOutput id="output" output={output.toString()}>{output}</CalcOutput>
-            </CalculatorDiv>
+                <CalculatorDiv id="calculator">
+                    <CalculatorH5>Kev's Calculator!</CalculatorH5>
+                    <br/>
+                    <label htmlFor="first-val">First Value: </label>
+                    <CalculatorInput type="text" id="first-val" value={input1} onChange={(e) => setInput1(e.target.value)}/>
+                    <br/>
+                    <label htmlFor="second-val">Second Value: </label>
+                    <CalculatorInput type="text" id="second-val" value={input2} onChange={(e) => setInput2(e.target.value)}/>
+                    <br/>
+                    <ButtonList id="buttons">
+                        <CalcButtonLi>
+                            <CalcButton onClick={doAdd}>+</CalcButton>
+                        </CalcButtonLi>
+                        <CalcButtonLi>
+                            <CalcButton onClick={doSub}>-</CalcButton>
+                        </CalcButtonLi>
+                        <CalcButtonLi>
+                            <CalcButton onClick={doMul}>*</CalcButton>
+                        </CalcButtonLi>
+                        <CalcButtonLi>
+                            <CalcButton onClick={doDiv}>/</CalcButton>
+                        </CalcButtonLi>
+                        <CalcButtonLi>
+                            <CalcButton onClick={doPow}>**</CalcButton>
+                        </CalcButtonLi>
+                        <CalcButtonLi>
+                            <CalcButton onClick={clearCalc}>Clear</CalcButton>
+                        </CalcButtonLi>
+                    </ButtonList>
+                    <CalcOutput id="output" output={output.toString()}>{output}</CalcOutput>
+                </CalculatorDiv>
 
-        </ProjectMain>
+            </ProjectMain>
+        </>
     );
 }

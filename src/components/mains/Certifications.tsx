@@ -46,39 +46,42 @@ const CertsText = styled.div`
 
 export default function Certifications() {
     return (
-        <CertsMain id="certs-main">
-            <CertsMainHeader>Certifications I've Completed</CertsMainHeader>
-            <CertsLogoContainer className="certificate-logo">
-                <CertsLogo src="/google-logo.png" alt="Google Logo"/>
-            </CertsLogoContainer>
-            <CertsText className="certificate-wrapper">
-                <h5><strong>Google IT Support Professional Certificate</strong></h5>
-                <br/>
-                <ul>
-                    <li>
-                        Completed an online Google Career course focused on IT support
-                        skills. Learned troubleshooting, system administration and how to
-                        use AI in IT.
-                    </li>
-                    <li>Earned: August 2025</li>
-                </ul>
-            </CertsText>
-            <CertsLogoContainer className="certificate-logo">
-                <CertsLogo src="/scrum-logo.png" alt="Scrum Logo"/>
-            </CertsLogoContainer>
-            <CertsText className="certificate-wrapper">
-                <h5><strong>Professional Scrum Developer Certification (PSD)</strong></h5>
-                <br/>
-                <ul>
-                    <li>
-                        Completed an online course focused on working in Scrum teams
-                        and applying modern Agile and DevOps practices. Learned about
-                        Scrum values and how they apply to Software Engineering and product
-                        design.
-                    </li>
-                    <li>Earned: July 2025</li>
-                </ul>
-            </CertsText>
-        </CertsMain>
+        <>
+            <title>Certifications | Kevin's Resume</title>
+            <CertsMain id="certs-main">
+                <CertsMainHeader>Certifications I've Completed</CertsMainHeader>
+                <CertsLogoContainer className="certificate-logo">
+                    <CertsLogo src="/google-logo.png" alt="Google Logo"/>
+                </CertsLogoContainer>
+                <CertsText className="certificate-wrapper">
+                    <h5><strong>Google IT Support Professional Certificate</strong></h5>
+                    <br/>
+                    <ul>
+                        <li>
+                            Completed an online Google Career course focused on IT support
+                            skills. Learned troubleshooting, system administration and how to
+                            use AI in IT.
+                        </li>
+                        <li>Earned: August 2025</li>
+                    </ul>
+                </CertsText>
+                <CertsLogoContainer className="certificate-logo">
+                    <CertsLogo src="/scrum-logo.png" alt="Scrum Logo"/>
+                </CertsLogoContainer>
+                <CertsText className="certificate-wrapper">
+                    <h5><strong>Professional Scrum Developer Certification (PSD)</strong></h5>
+                    <br/>
+                    <ul>
+                        <li>
+                            Completed an online course focused on working in Scrum teams
+                            and applying modern Agile and DevOps practices. Learned about
+                            Scrum values and how they apply to Software Engineering and product
+                            design.
+                        </li>
+                        <li>Earned: July 2025</li>
+                    </ul>
+                </CertsText>
+            </CertsMain>
+        </>
     )
 }

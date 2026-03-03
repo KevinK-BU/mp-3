@@ -38,21 +38,24 @@ const TextWrapper = styled.div`
 
 export default function Home() {
     return (
-        <HomeMain>
-            <ProfilePicture src="/Kevin_Kupeli.jpg" alt="Kevin Kupeli" id="profile-picture"/>
-            <TextWrapper id="text-wrapper">
-                <p>Hi! My name is Kevin Kupeli, and I am an Undergraduate Junior Computer Science student
-                    at Boston University. I am also a Course Assistant for the Introduction to Computer Science
-                    1 class here at BU! Currently, I am looking to further my understanding of web development
-                    principles as well as gain practical experience professionally in Software Engineering
-                </p>
-                <br/>
-                <p>
-                    This webside is a digital version of my resume showing my <strong>educational </strong>
-                    and <strong>professional</strong> expereinces; as well as other information
-                    about me that may interest you!
-                </p>
-            </TextWrapper>
-        </HomeMain>
+        <>
+            <title>Home | Kevin's Resume </title>
+            <HomeMain>
+                <ProfilePicture src="/Kevin_Kupeli.jpg" alt="Kevin Kupeli" id="profile-picture"/>
+                <TextWrapper id="text-wrapper">
+                    <p>Hi! My name is Kevin Kupeli, and I am an Undergraduate Junior Computer Science student
+                        at Boston University. I am also a Course Assistant for the Introduction to Computer Science
+                        1 class here at BU! Currently, I am looking to further my understanding of web development
+                        principles as well as gain practical experience professionally in Software Engineering
+                    </p>
+                    <br/>
+                    <p>
+                        This webside is a digital version of my resume showing my <strong>educational </strong>
+                        and <strong>professional</strong> expereinces; as well as other information
+                        about me that may interest you!
+                    </p>
+                </TextWrapper>
+            </HomeMain>
+        </>
     )
 }

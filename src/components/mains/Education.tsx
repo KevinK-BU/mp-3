@@ -52,30 +52,33 @@ const EducationWrapper = styled.div`
 
 export default function Education() {
     return (
-        <EducationMain>
-            <EducationTitle>Educational Background</EducationTitle>
-            <ImageWrapper className="image-wrapper">
-                <StyledImage src="/Boston-University-Terriers-logo.png" alt="Boston University Terriers Logo" id="bu-logo"/>
-            </ImageWrapper>
-            <EducationWrapper className="education-wrapper">
-                <h5><strong>B.A. in Computer Science</strong> | <em>Boston University, Boston MA.</em></h5>
+        <>
+            <title>Education | Kevin's Resume</title>
+            <EducationMain>
+                <EducationTitle>Educational Background</EducationTitle>
+                <ImageWrapper className="image-wrapper">
+                    <StyledImage src="/Boston-University-Terriers-logo.png" alt="Boston University Terriers Logo" id="bu-logo"/>
+                </ImageWrapper>
+                <EducationWrapper className="education-wrapper">
+                    <h5><strong>B.A. in Computer Science</strong> | <em>Boston University, Boston MA.</em></h5>
+                    <br/>
+                    <h5>Relevant Courses: Introduction to Computer Science, Data Structures, Databases,
+                        Analysis of Algorithms, Web Development (most relevant), Software Engineering</h5>
+                    <br/>
+                    <h5>Attending: September 2023 - Expected May 2027</h5>
+                </EducationWrapper>
                 <br/>
-                <h5>Relevant Courses: Introduction to Computer Science, Data Structures, Databases,
-                    Analysis of Algorithms, Web Development (most relevant), Software Engineering</h5>
-                <br/>
-                <h5>Attending: September 2023 - Expected May 2027</h5>
-            </EducationWrapper>
-            <br/>
-            <ImageWrapper className="image-wrapper">
-                <StyledImage src="/High_School_Logo.png" alt="The Springfield Renaissance School Logo" id="hs-logo"/>
-            </ImageWrapper>
-            <EducationWrapper className="education-wrapper">
-                <h5><strong>High School Diploma</strong> | <em>The Springfield Renaissance School of Expeditionary Learning</em>
-                </h5>
-                <br/>
-                <h5>Attended: August 2019 - June 2023</h5>
-            </EducationWrapper>
-        </EducationMain>
+                <ImageWrapper className="image-wrapper">
+                    <StyledImage src="/High_School_Logo.png" alt="The Springfield Renaissance School Logo" id="hs-logo"/>
+                </ImageWrapper>
+                <EducationWrapper className="education-wrapper">
+                    <h5><strong>High School Diploma</strong> | <em>The Springfield Renaissance School of Expeditionary Learning</em>
+                    </h5>
+                    <br/>
+                    <h5>Attended: August 2019 - June 2023</h5>
+                </EducationWrapper>
+            </EducationMain>
+        </>
 
 )
 }
